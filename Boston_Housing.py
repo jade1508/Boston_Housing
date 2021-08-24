@@ -9,10 +9,6 @@ df = pd.read_csv('HousingData.csv', delimiter=',', nrows=nRowRead)
 nRow, nCol = df.shape
 print (f'There are {nRow} rows and {nCol} columns')
 
-# Sửa
-df = pd.read_csv('HousingData.csv')
-
-
 # Step 3 Check the first 10 records Find the total number of records
 print(df.head(10))
 
